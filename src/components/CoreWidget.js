@@ -10,7 +10,7 @@ export default class googleWidget extends React.Component {
 
   static id = 'google';
   static widgetName = 'Google Search';
-  static sizes = [[1, 2], [1, 3]];
+  static sizes = [[2, 1], [3, 1]];
 
   keypressHandler(event) {
     if (event.key === 'Enter') {
