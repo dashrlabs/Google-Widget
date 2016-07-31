@@ -1,7 +1,7 @@
 {
   "name": "dashr-widget-google",
   "productName": "google",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Google",
   "main": "build/components/CoreWidget.js",
   "scripts": {
