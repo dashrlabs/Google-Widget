@@ -25,7 +25,7 @@ export default class googleWidget extends React.Component {
       <div className="container uk-flex">
         <form className="uk-form uk-flex-column uk-flex uk-flex-item-1" onSubmit={(event) => event.preventDefault()}>
           <div className="uk-flex-item-1">
-            <img style={{ width: '60%' }} src={googleLogo} alt="Google" />
+            <img style={{ width: '60%' }} src={googleLogo} alt="Google" draggable="false" />
           </div>
           <div className="uk-flex uk-flex-item-1 uk-flex-middle uk-margin-left uk-margin-right uk-form-icon" style={{ position: 'relative', top: '-10px' }}>
             <i className="uk-icon-search"></i>
